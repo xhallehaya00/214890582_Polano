@@ -1,0 +1,63 @@
+    1  history -w
+    2  history -w
+    3  logout
+    4  cd 214890582_Polank
+    5  cd 214890582_Polano
+    6  ls
+    7  mkdir linux_practice
+    8  ls
+    9  cd linux_practice
+   10  ls
+   11  touch notes.txt
+   12  ls
+   13  ls >> notes.txt
+   14  cat notes.txt
+   15  echo "Hello,Linux!" >> notes.txt
+   16  ls
+   17  cat notes.txt
+   18  echo "This is a practical exam" >> notes
+   19  head -n 1 notes.txt
+   20  tail -n notes.txt
+   21  tail -n 1 notes.txt
+   22  cat notes.txt
+   23  mkdir subdir
+   24  mv notes.txt subdir
+   25  ls
+   26  rm -r notes
+   27  ls
+   28  echo "This is a practical exam" >> notes.txt
+   29  tail -n 1 notes.txt
+   30  ls
+   31  mv notes.txt subdir
+   32  ls
+   33  mv subdir practice_subdir
+   34  ls
+   35  mv notes.txt linux_practice
+   36  cd practice_subdir
+   37  la
+   38  ls
+   39  mv notes.txt linux_practice
+   40  ls
+   41  cd ..
+   42  cd practice_subdir
+   43  ls
+   44  mv linux_practice notes.txt
+   45  ls
+   46  mv notes.txt -t ..
+   47  cd ..
+   48  ls
+   49  cd
+   50  time date
+   51  times
+   52  df -t home
+   53  python --version
+   54  php -- version
+   55  git -- version
+   56  gh --version
+   57  git --version
+   58  history
+   59  logout
+   60  cd 214890582_Polano
+   61  git chechout -b finalexam
+   62  git checkout -b finalexam
+   63  history > exam_log.txt
